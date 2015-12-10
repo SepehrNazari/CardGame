@@ -1,4 +1,8 @@
 class Card:
+    activation = None
+    trigger = None
+    continuous = None
+
     def __init__(self, name):
         self.name = name
 
@@ -24,8 +28,8 @@ class Spell(Card):
 
 
 class Counter(Card):
-    def __init__(self, name, trigger, continuous, mandatory):
+    def __init__(self, name, trigger, continuous, optional):
         super().__init__(name)
         self.trigger = trigger
         self.continuous = continuous
-        self.mandatory = mandatory
+        self.optional = optional

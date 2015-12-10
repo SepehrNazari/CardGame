@@ -1,4 +1,4 @@
-import Player
+from Player import Player
 import Event
 
 
@@ -8,6 +8,7 @@ class Winner(Exception):
 
 
 players = [Player('Player 1'), Player('Player 2')]
+
 
 def game():
     pass

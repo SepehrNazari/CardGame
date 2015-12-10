@@ -10,38 +10,60 @@ class Player:
         self.grave = []
         self.counters = []
         self.triggers = []
+        # self.connection = getConnection()
 
     # BASIC FUNCTIONS
-    def shuffle_deck(self):
+    def deck_shuffle(self):
         random.shuffle(self.deck)
 
-    def add_bot_deck(self, card):
-        self.deck.append(card)
+    def deck_shuffle_into(self, cards):
+        for card in cards:
+            self.deck_add_bot(card)
+        self.deck_shuffle()
 
-    def add_top_deck(self, card):
-        self.deck.insert(0, card)
+    def deck_add_bot(self, cards):
+        self.deck.extend(cards)
 
-    def shuffle_into_deck(self, card):
-        self.add_bot_deck(card)
-        self.shuffle_deck()
+    def deck_add_top(self, cards):
+        for card in cards.reverse():
+            self.deck.insert(0, card)
     
-    def get_top_deck(self, num):
+    def deck_get_top(self, num):
         cards = list()
         for x in range(num):
             cards.append(self.deck.pop(0))
         return cards
     
-    def add_to_hand(self, cards):
+    def hand_add(self, cards):
         self.hand.extend(cards)
 
-    def draw(self):
-        cards = self.get_top_deck(1)
-        self.add_to_hand(cards)
+    def hand_remove(self, cards):
+        for card in cards:
+            self.hand.remove(card)
 
-    def send_to_grave(self, cards):
+    def hand_get(self):
+        return self.hand
+
+    def draw(self, num):
+        cards = self.deck_get_top(num)
+        self.hand_add(cards)
+
+    def grave_add(self, cards):
         self.grave.extend(cards)
 
-    def remove_from_board(self, card):
-        self.board.remove(card)
+    def grave_remove(self, cards):
+        for card in cards:
+            self.hand.remove(card)
 
+    def grave_get(self):
+        return self.grave
 
+    def board_remove(self, cards):
+        for card in cards:
+            self.board.remove(card)
+
+    def board_add(self, card, position=0):
+        self.board.insert(position, card)
+
+    def board_get(self):
+        return self.board

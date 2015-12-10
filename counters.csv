@@ -1,16 +1,16 @@
-id,name,rarity,trigger,continuous,mandatory
-0,,c,NULL,Draw a card at the start of your turn.,FALSE
-1,,c,When your opponent attacks a creature: give that creature 50 strength.,,FALSE
-2,,c,When your opponent draws a card from a card effect: they discard 2 random cards.,,TRUE
-3,,c,When your opponent buffs a creature they control: dispel all their creatures,Give 5 strength to all your creatures.,FALSE
-4,,c,When a creature you control is destroyed: add that creature to your hand.,,FALSE
-5,,u,When your opponent's deck reaches 15 cards: nullify this counter.,Whenever you mill card(s): your opponent mills a card.,TRUE
-6,,u,,,FALSE
-7,,u,When your opponent targets a creature you control: change the target to another creature you control.,,FALSE
-8,,u,When you sacrifice a creature: draw a card and nullify this counter.,Creatures you control can be used as 2 sacrifices each.,TRUE
-9,,u,,,FALSE
-10,,r,When your opponent activates a spell: sacrifice a creature to nullify that spell.,,FALSE
-11,,r,When your opponent activates a counter: mill 4 cards to nullify that counter.,,FALSE
-12,,r,When your opponent plays a creature: sacrifice a creature to nullify that creature.,,FALSE
-13,,r,When your opponent plays a creature: discard a card to destroy all creatures.,,FALSE
-14,,r,After you mill a card: add that card to your hand.,,FALSE
+id,name,rarity,trigger,continuous,optional
+0,,c,NULL,Draw a card at the start of your turn.,TRUE
+1,,c,When your opponent attacks a creature: give that creature 50 strength.,,TRUE
+2,,c,When your opponent draws a card from a card effect: they discard 2 random cards.,,FALSE
+3,,c,When your opponent buffs a creature they control: dispel all their creatures,Give 5 strength to all your creatures.,TRUE
+4,,c,When a creature you control is destroyed: add that creature to your hand.,,TRUE
+5,,u,When your opponent's deck reaches 15 cards: nullify this counter.,Whenever you mill card(s): your opponent mills a card.,FALSE
+6,,u,,,TRUE
+7,,u,When your opponent targets a creature you control: change the target to another creature you control.,,TRUE
+8,,u,When you sacrifice a creature: draw a card and nullify this counter.,Creatures you control can be used as 2 sacrifices each.,FALSE
+9,,u,,,TRUE
+10,,r,When your opponent activates a spell: sacrifice a creature to nullify that spell.,,TRUE
+11,,r,When your opponent activates a counter: mill 4 cards to nullify that counter.,,TRUE
+12,,r,When your opponent plays a creature: sacrifice a creature to nullify that creature.,,TRUE
+13,,r,When your opponent plays a creature: discard a card to destroy all creatures.,,TRUE
+14,,r,After you mill a card: add that card to your hand.,,TRUE
