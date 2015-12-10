@@ -1,0 +1,8 @@
+game main loop handles all player inputs and outputs (this is the gui)
+game main loop is aware of all actions a player can take (play a card, attack with a card, etc)
+if a player takes one of these actions, it sends the command to the server
+the server has the Event.py file which sends the functions to the players' computers telling them what to do
+the Player class functions are shown via gui
+the server also has a copy of each player's Player class
+the server pings each player's computer at set intervals to check they are still connected and they have the correct information
+if info doesn't match, send the full player objects to the player

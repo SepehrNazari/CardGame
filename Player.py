@@ -1,6 +1,6 @@
 import random
 
-
+timeperturn = 90
 class Player:
     def __init__(self, name):
         self.name = name
@@ -11,6 +11,8 @@ class Player:
         self.counters = []
         self.triggers = []
         # self.connection = getConnection()
+        self.summons = 2
+        self.time = 0
 
     # BASIC FUNCTIONS
     def deck_shuffle(self):
