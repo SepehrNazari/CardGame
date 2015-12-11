@@ -7,14 +7,16 @@ class Player:
         self.board = []
         self.hand = []
         self.deck = []
-        self.grave = []
+        self.graveyard = []
         self.counters = []
         self.triggers = []
         # self.connection = getConnection()
         self.summons = 2
-        self.time = 0
 
     # BASIC FUNCTIONS
+    def deck_load(self):
+        pass  # use mysql to load deck
+
     def deck_shuffle(self):
         random.shuffle(self.deck)
 
@@ -50,15 +52,15 @@ class Player:
         cards = self.deck_get_top(num)
         self.hand_add(cards)
 
-    def grave_add(self, cards):
-        self.grave.extend(cards)
+    def graveyard_add(self, cards):
+        self.graveyard.extend(cards)
 
-    def grave_remove(self, cards):
+    def graveyard_remove(self, cards):
         for card in cards:
             self.hand.remove(card)
 
-    def grave_get(self):
-        return self.grave
+    def graveyard_get(self):
+        return self.graveyard
 
     def board_remove(self, cards):
         for card in cards:

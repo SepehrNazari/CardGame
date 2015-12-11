@@ -39,13 +39,13 @@ def destroy(cards, cause=None, cause_card=None):
         for player in players:
             if card in player.board:
                 player.board_remove((card,))
-                player.grave_add((card,))
+                player.graveyard_add((card,))
     # triggers for after destruction
 
 
 def mill(num, player):
     # triggers for before mill
-    player.grave_add(player.deck_get_top(num))
+    player.graveyard_add(player.deck_get_top(num))
     # triggers for after mill
 
 
@@ -65,9 +65,9 @@ def play_card(player, card, position):
 def discard(player, cards):
     # triggers for before discard
     player.hand_remove(cards)
-    # triggers for before send to grave
-    player.grave_add(cards)
-    # triggers for after send to grave
+    # triggers for before send to graveyard
+    player.graveyard_add(cards)
+    # triggers for after send to graveyard
     # triggers for after discard
 
 
@@ -75,7 +75,7 @@ def discardRandom(player, num):
     cards = random.sample(player.hand_get(), num)
     # triggers for before discard
     player.hand_remove(cards)
-    # triggers for before send to grave
-    player.grave_add(cards)
-    # triggers for after send to grave
+    # triggers for before send to graveyard
+    player.graveyard_add(cards)
+    # triggers for after send to graveyard
     # triggers for after discard

@@ -6,9 +6,13 @@ class Winner(Exception):
     def __init__(self, winner):
         self.winner = winner
 
-
-players = [Player('Player 1'), Player('Player 2')]
-
+turn_time = 90
 
 def game():
-    pass
+    players = [Player('Player 1'), Player('Player 2')]
+    for player in players:
+        # player.load_deck()
+        player.deck_shuffle()
+    players[0].draw(5)
+    players[1].draw(1)
+    turn = 0

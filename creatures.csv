@@ -11,7 +11,7 @@ id,name,rarity,strength,level,race,activation,trigger,continuous,requirement
 9,,c,400,3,NULL,NULL,NULL,NULL,NULL
 10,,u,800,4,NULL,NULL,NULL,NULL,NULL
 11,,c,45,0,NULL,Target a creature: give it 20 strength.,NULL,NULL,NULL
-12,,u,123,1,NULL,NULL,NULL,Give all your creatures 10 strength.,NULL
+12,,u,123,1,NULL,NULL,NULL,All your creatures gain 10 strength.,NULL
 13,,u,49,0,NULL,NULL,When an opponent's creature is destroyed: this creature gains +10 strength,NULL,NULL
 14,,c,52,1,NULL,Target a creature: destroy it.,NULL,NULL,NULL
 15,,r,73,2,NULL,Destroy all opponent's creatures.,NULL,NULL,NULL
@@ -24,38 +24,38 @@ id,name,rarity,strength,level,race,activation,trigger,continuous,requirement
 22,,c,50,0,NULL,"Target a creature. Give it 40 strength. At the end of the turn, that creatures loses 40 strength.",NULL,NULL,NULL
 23,,r,44,1,NULL,NULL,NULL,Your opponent doesn't draw cards when their creatures are destroyed.,NULL
 24,,u,35,0,NULL,NULL,NULL,This creature can attack the turn it's played.,NULL
-25,,c,,,NULL,NULL,NULL,NULL,NULL
-26,,c,,,NULL,NULL,NULL,NULL,NULL
-27,,c,,,NULL,NULL,NULL,NULL,NULL
-28,,c,,,NULL,NULL,NULL,NULL,NULL
-29,,c,,,NULL,NULL,NULL,NULL,NULL
-30,,u,,,NULL,NULL,NULL,NULL,NULL
-31,,u,,,NULL,NULL,NULL,NULL,NULL
-32,,u,,,NULL,NULL,NULL,NULL,NULL
-33,,u,,,NULL,NULL,NULL,NULL,NULL
-34,,u,,,NULL,NULL,NULL,NULL,NULL
-35,,u,,,NULL,NULL,NULL,NULL,NULL
-36,,u,,,NULL,NULL,NULL,NULL,NULL
-37,,u,,,NULL,NULL,NULL,NULL,NULL
-38,,u,,,NULL,NULL,NULL,NULL,NULL
-39,,u,,,NULL,NULL,NULL,NULL,NULL
-40,,u,,,NULL,NULL,NULL,NULL,NULL
-41,,u,,,NULL,NULL,NULL,NULL,NULL
-42,,u,,,NULL,NULL,NULL,NULL,NULL
-43,,u,,,NULL,NULL,NULL,NULL,NULL
+25,,u,92,1,NULL,NULL,NULL,Each player can only play 1 creature per turn.,NULL
+26,,c,37,0,NULL,Discard a card. Play a 40 strength token.,NULL,NULL,NULL
+27,,r,88,2,NULL,Play 2 100 strength tokens.,NULL,NULL,NULL
+28,,c,116,1,NULL,Draw a card.,NULL,NULL,NULL
+29,,u,163,3,NULL,Add a spell from your graveyard to your hand,NULL,NULL,NULL
+30,,r,126,2,NULL,NULL,At the end of your turn: your opponent discards a random card.,NULL,NULL
+31,,u,47,0,NULL,Target a creature: it loses 20 strength.,NULL,NULL,NULL
+32,,c,,,NULL,NULL,NULL,NULL,NULL
+33,,c,,,NULL,NULL,NULL,NULL,NULL
+34,,c,,,NULL,NULL,NULL,NULL,NULL
+35,,c,,,NULL,NULL,NULL,NULL,NULL
+36,,c,,,NULL,NULL,NULL,NULL,NULL
+37,,c,,,NULL,NULL,NULL,NULL,NULL
+38,,c,,,NULL,NULL,NULL,NULL,NULL
+39,,c,,,NULL,NULL,NULL,NULL,NULL
+40,,c,,,NULL,NULL,NULL,NULL,NULL
+41,,c,,,NULL,NULL,NULL,NULL,NULL
+42,,c,,,NULL,NULL,NULL,NULL,NULL
+43,,c,,,NULL,NULL,NULL,NULL,NULL
 44,,c,,,NULL,NULL,NULL,NULL,NULL
 45,,c,,,NULL,NULL,NULL,NULL,NULL
-46,,c,,,NULL,NULL,NULL,NULL,NULL
-47,,c,,,NULL,NULL,NULL,NULL,NULL
-48,,c,,,NULL,NULL,NULL,NULL,NULL
-49,,c,,,NULL,NULL,NULL,NULL,NULL
-50,,r,,,NULL,NULL,NULL,NULL,NULL
-51,,r,,,NULL,NULL,NULL,NULL,NULL
-52,,r,,,NULL,NULL,NULL,NULL,NULL
-53,,r,,,NULL,NULL,NULL,NULL,NULL
-54,,r,,,NULL,NULL,NULL,NULL,NULL
-55,,c,,,NULL,NULL,NULL,NULL,NULL
-56,,c,,,NULL,NULL,NULL,NULL,NULL
-57,,c,,,NULL,NULL,NULL,NULL,NULL
-58,,c,,,NULL,NULL,NULL,NULL,NULL
-59,,c,,,NULL,NULL,NULL,NULL,NULL
+46,,u,,,NULL,NULL,NULL,NULL,NULL
+47,,u,,,NULL,NULL,NULL,NULL,NULL
+48,,u,,,NULL,NULL,NULL,NULL,NULL
+49,,u,,,NULL,NULL,NULL,NULL,NULL
+50,,u,,,NULL,NULL,NULL,NULL,NULL
+51,,u,,,NULL,NULL,NULL,NULL,NULL
+52,,u,,,NULL,NULL,NULL,NULL,NULL
+53,,u,,,NULL,NULL,NULL,NULL,NULL
+54,,u,,,NULL,NULL,NULL,NULL,NULL
+55,,u,,,NULL,NULL,NULL,NULL,NULL
+56,,u,,,NULL,NULL,NULL,NULL,NULL
+57,,r,,,NULL,NULL,NULL,NULL,NULL
+58,,r,,,NULL,NULL,NULL,NULL,NULL
+59,,r,,,NULL,NULL,NULL,NULL,NULL
