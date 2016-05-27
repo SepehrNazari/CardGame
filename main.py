@@ -2,24 +2,25 @@ from kivy.app import App
 from kivy.uix.widget import Widget
 
 class Card(Widget):
-	# should have card graphics and attribute (e.g. power/defense), cost, etc.
+    pass
+    # should have card graphics and attribute (e.g. power/defense), cost, etc.
 
 class Deck(Widget):
-	# contains number/list of cards, functions for drawing, shuffling, etc.
+    # contains number/list of cards, functions for drawing, shuffling, etc.
 	
 
 class Hand(Widget):
-	# contains number/list of cards, functions for reading/playing a card from hand
+    # contains number/list of cards, functions for reading/playing a card from hand
 
 class Graveyard(Widget):
-	# contains number/list of cards, fuctions for moving card from gy back to deck/hand
+    # contains number/list of cards, fuctions for moving card from gy back to deck/hand
 
 class CardGame(Widget):
-	pass
+    pass
 
 class CardApp(App):
-	def build(self):
-		return CardGame()
+    def build(self):
+        return CardGame()
 
 if __name__ == '__main__':
-	CardApp().run()
+    CardApp().run()

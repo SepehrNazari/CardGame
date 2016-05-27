@@ -1,14 +1,14 @@
 class deck:
-	num_cards (int)
-	card_list (list of card objects?)
+    num_cards (int)
+    card_list (list of card objects?)
 
-	shuffle(shuffles deck)
-	draw(n cards)
-	start + mulligan?
+    shuffle(shuffles deck)
+    draw(n cards)
+    start + mulligan?
 
 class card:
-	graphic
-	cost
-	attack
-	defense
-	other attributes (e.g. boolean for if it's a spell or a creature, etc.)
+    graphic
+    cost
+    attack
+    defense
+    other attributes (e.g. boolean for if it's a spell or a creature, etc.)
