@@ -6,13 +6,15 @@ class Card(Widget):
     # should have card graphics and attribute (e.g. power/defense), cost, etc.
 
 class Deck(Widget):
+    pass
     # contains number/list of cards, functions for drawing, shuffling, etc.
-	
 
 class Hand(Widget):
+    pass
     # contains number/list of cards, functions for reading/playing a card from hand
 
 class Graveyard(Widget):
+    pass
     # contains number/list of cards, fuctions for moving card from gy back to deck/hand
 
 class CardGame(Widget):

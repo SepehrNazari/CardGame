@@ -1,4 +1,4 @@
-from Game import players, Winner
+from Game import Winner
 import Card
 import Player
 import random
@@ -33,7 +33,7 @@ def deal_damage(target, damage, cause=None, cause_card=None):
         mill(1, target)
 
 
-def destroy(cards, cause=None, cause_card=None):
+def destroy(players, cards, cause=None, cause_card=None):
     # triggers for before destruction
     for card in cards:
         for player in players:
