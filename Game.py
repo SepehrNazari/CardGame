@@ -14,5 +14,5 @@ def game():
         # player.load_deck()
         player.deck_shuffle()
     players[0].draw(5)
-    players[1].draw(5)
+    players[1].draw(6)
     turn = 0
