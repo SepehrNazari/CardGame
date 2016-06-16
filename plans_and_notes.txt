@@ -25,6 +25,8 @@ games should take 15-20 minutes based on 1 minute per turn and around 10 turns (
 30 card deck + 3 counters, any number of each card
 5 card starting hand, 6 for second player
 Mulligan specific cards like hs
+once-per-turn mulligan like duelyst to prevent stalemates and dead opening hands, 
+as well as let you get the last few cards of your deck more easily
 draw whenever a minion is destroyed or sacrificed
 3 trigger-activated counter cards you can use during anybody's turn that start face up on the board at the start of the game
 they can be used to tell what your opponent's deck is for mulligan
