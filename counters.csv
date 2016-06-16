@@ -8,9 +8,9 @@ id,name,rarity,trigger,continuous,optional
 6,,u,,,TRUE
 7,,u,When your opponent targets a creature you control: change the target to another creature you control.,,TRUE
 8,,u,When you sacrifice a creature: draw a card and nullify this counter.,Creatures you control can be used as 2 sacrifices each.,FALSE
-9,,u,,,TRUE
+9,,u,When your opponent plays a creature: sacrifice a creature to nullify that creature.,,TRUE
 10,,r,When your opponent activates a spell: sacrifice a creature to nullify that spell.,,TRUE
 11,,r,When your opponent activates a counter: mill 4 cards to nullify that counter.,,TRUE
-12,,r,When your opponent plays a creature: sacrifice a creature to nullify that creature.,,TRUE
+12,,r,When your deck runs out of cards: shuffle 5 random cards from your graveyard to your deck.,,TRUE
 13,,r,When your opponent plays a creature: discard a card to destroy all creatures.,,TRUE
 14,,r,After you mill a card: add that card to your hand.,,TRUE
