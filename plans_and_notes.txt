@@ -1,0 +1,47 @@
+buy packs - 150 gold or 5 for $3, 17 for $10, 45 for $25, 95 for $50
+upgrade cards - gold only
+gold boost?
+cards start randomized like maplestory, within ±5%
+you can upgrade them to +8
+all upgrades add 3% strength
+this way expensive cards with good effects don't have to be upgraded to be good, while cheaper cards with high stats can be just as good because it's easier to upgrade past +1. vanillas will rarely if ever fall off
+
+assuming card is worth 30
++1 guaranteed, 30 gold
+60
++2-4 50,25,5% destroy, 0,  30, 90 gold
+120, 200, 300
++5 50% nothing happens, 60 gold
+420
++6-7 50,20% derank by one, 40, 240 gold
+620, 970
++8 90% nothing happens, 60 gold
+1570
+
+~200 gold per day on average from daily quests that require 2-3 wins, 30 gold per win, capped at 300, wagering allowed, expected 300 gold per day
+
+games should take 15-20 minutes based on 1 minute per turn and around 10 turns (per player) a game
+
+30 card deck + 3 counters, any number of each card
+5 card starting hand, 6 for second player
+Mulligan specific cards like hs
+draw whenever a minion is destroyed or sacrificed
+3 trigger-activated counter cards you can use during anybody's turn that start face up on the board at the start of the game
+they can be used to tell what your opponent's deck is for mulligan
+whenever a creature hits face, you mill a card
+first to deck out loses
+you can attack anything, all attacks trade damage (unless effect specifies no retaliation)
+only 1 combat stat for creatures
+monsters have to wait a turn to attack
+cards can mill as costs, big creatures require sacrifices
+2 creature summons per turn, but only 1 for first turn
+any number of spells
+spells have permanent downside of having less cards in hand since they don't replace themselves
+drawing cards has inherent downsides
+spells are rarer than creatures
+max 5 creatures on board
+0-5 stars for creatures, represents number of sacrifices needed
+5 cards per pack, each card individually has 5% chance of being a counter,  25% change of being a spell, 70% chance of being a creature 
+15% chance of rare, 25% chance for uncommon, 60% chance for common
+cards can be sold for 10 gold for a rare, 6 gold for an uncommon, 3 gold for a common
+times 2 for spell, times 6 for counter
