@@ -23,7 +23,7 @@ assuming card is worth 30
 games should take 15-20 minutes based on 1 minute per turn and around 10 turns (per player) a game
 
 30 card deck + 3 counters, any number of each card
-5 card starting hand, 6 for second player
+4 card starting hand, 5 for second player, 7 cards max. draws don't occur when at max (not milled)
 Mulligan specific cards like hs
 once-per-turn mulligan like duelyst to prevent stalemates and dead opening hands, 
 as well as let you get the last few cards of your deck more easily
