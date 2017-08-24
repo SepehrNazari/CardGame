@@ -1,5 +1,4 @@
-from Player import Player
-import Event
+from src.Player import Player
 
 
 class Winner(Exception):
