@@ -63,9 +63,9 @@ creature types (first expansion, average stat distribution (adds up to 24))
 actual numbers will be much lower (generally 1-4 for each stat) for starting creatures
 these numbers are going to be around what maxed evolutions will have
 orcs (2 int, 4 speed, 10 hp, 8 power)
-fairies (12 int, 6 speed, 4 hp, 2 power)
-elves (6 int, 10 speed, 5 hp, 3 power)
-humans (6 int, 6 speed, 7 hp, 5 power)
+fairies (12 int, 6 speed, 4 hp, 1 power)
+elves (7 int, 10 speed, 5 hp, 2 power)
+humans (5 int, 5 speed, 8 hp, 6 power)
 
 possible effects: attack with int instead of power, return damage whenever opponent attacks you
 cards have stat costs and max stat conditions (stats are like mana, refresh to max every turn)
@@ -97,6 +97,8 @@ speed
     attacks deal opponent's max power damage instead of your own and can't be avoided
     use speed to pay any costs
     look at top 2 cards and put one on bottom before drawing
+mixed
+    mixed cards allow for TONS of possibilities, but for simplicity's sake, will be very limited in the original set
 
 equips return to hand when creature dies, but have costs to play (with exceptions)
 low cost cards are most essential
