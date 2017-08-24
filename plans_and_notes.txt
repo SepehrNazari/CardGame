@@ -67,6 +67,13 @@ fairies (12 int, 6 speed, 4 hp, 1 power)
 elves (7 int, 10 speed, 5 hp, 2 power)
 humans (5 int, 5 speed, 8 hp, 6 power)
 
+since faeries will have low health, they need to be able to tank at least a hit or two from orcs to be viable
+so magic cards will have to have a good amount of defensive cards, which shows that faeries were the peaceful race that lived amongside orcs who couldn't enter their cities cuz of barriers, but then humans improved their tech and have now destroyed the city barriers and are attacking the faeries
+so humans use a mix of all their tools, they're crafty and have good technology and will do anything to win
+faeries want to play defensively and win with as little combat as possible, but will attack with spells if they have to
+and the two different types of faeries are the spellcasters who will go a bit more offensive
+and the tricksters who will use more tricks and cheat
+
 possible effects: attack with int instead of power, return damage whenever opponent attacks you
 cards have stat costs and max stat conditions (stats are like mana, refresh to max every turn)
 
