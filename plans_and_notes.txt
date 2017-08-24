@@ -62,10 +62,13 @@ draw whenever a creature dies based on its intelligence (0 to 3 generally, highe
 creature types (first expansion, average stat distribution (adds up to 24))
 actual numbers will be much lower (generally 1-4 for each stat) for starting creatures
 these numbers are going to be around what maxed evolutions will have
-orcs (2 int, 4 speed, 10 hp, 8 power)
-fairies (12 int, 6 speed, 4 hp, 1 power)
-elves (7 int, 10 speed, 5 hp, 2 power)
-humans (5 int, 5 speed, 8 hp, 6 power)
+orcs (11 hp, 9 power, 1 magic, 3 speed) defense tools, lots of equips that gives damage/defense
+sidhe (4 hp, 1 power, 12 magic, 7 speed) barriers, fireballs, instant magic, destroy
+fey (6 hp, 2 power, 7 magic, 9 speed) traps, utility, stealing, information, discarding
+humans (9 hp, 7 power, 2 magic, 5 speed) technology, equips can give effects, still brute force
+expansion
+penguins? or other swarm (6, 4, 6, 2) stronger abilities, high synergy (plenty of them number-wise), debuffs (icy cold), play extra creatures
+elves or other archers/fast warriors (5, 5, 4, 10) cards like 2 might 3 speed, deal your might twice, hybrid cards, shit at start, insane scaling (draw a card every turn)
 
 since faeries will have low health, they need to be able to tank at least a hit or two from orcs to be viable
 so magic cards will have to have a good amount of defensive cards, which shows that faeries were the peaceful race that lived amongside orcs who couldn't enter their cities cuz of barriers, but then humans improved their tech and have now destroyed the city barriers and are attacking the faeries
