@@ -47,3 +47,62 @@ max 5 creatures on board
 15% chance of rare, 25% chance for uncommon, 60% chance for common
 cards can be sold for 10 gold for a rare, 6 gold for an uncommon, 3 gold for a common
 times 2 for spell, times 6 for counter
+
+
+NEW STUFF:
+
+add "ATTACK" cards that allow you to attack, make the game mostly spell oriented.
+creatures have 4 stats, health/defense, power, intelligence, speed/cunning (utility stat)
+creatures can evolve into upgrades of themselves through some in-game mechanic (maybe getting enough stats, maybe an evolve card, not sure)
+cards can evolve into different versions (generic evolve, specific evolve that can only be gotten through a specific card, stat based evolve, etc)
+don't have to draw the actual evolved versions (more consistency)
+evolves shouldn't be mandatory, and should have real cost (for example play a creature or evolve a creature once a turn)
+draw whenever a creature dies based on its intelligence (0 to 3 generally, higher for evolved creatures)
+
+creature types (first expansion, average stat distribution (adds up to 24))
+actual numbers will be much lower (generally 1-4 for each stat) for starting creatures
+these numbers are going to be around what maxed evolutions will have
+orcs (2 int, 4 speed, 10 hp, 8 power)
+fairies (12 int, 6 speed, 4 hp, 2 power)
+elves (6 int, 10 speed, 5 hp, 3 power)
+humans (6 int, 6 speed, 7 hp, 5 power)
+
+possible effects: attack with int instead of power, return damage whenever opponent attacks you
+cards have stat costs and max stat conditions (stats are like mana, refresh to max every turn)
+
+intelligence
+    cards cost lots of current int
+    you can run out of current int quickly
+    gated by current int, but draws a lot
+    pay x to deal x rather than scaling, pay 2 to draw 2 (+1 card advantage), pay 5 to search for any spell, etc
+    special effects:
+    attacks deal max int damage instead of max power (still gated because low max power means can't play many)
+    pay 2 draw 1 once a turn
+    increase current int by 3 every turn (but not max)
+power
+    cards have low to no current power costs
+    rarely run out, except when using high impact cards, can usually only use one of those per turn
+    gated by low card draw and max stats
+    pay 1 to deal max power damage, pay 5 to destroy 2 random cards in opponent's hand, pay 3 hp to draw 2 (+1 card advantage)
+    special effects:
+    deal power damage whenever attacked (for tanks with low power like barbed wire walls)
+    pay 2 to attack once a turn
+    regenerate 2 hp every turn
+speed
+    cards have low to medium current speed costs
+    may run out when doing a power turn, but not many huge cost cards. even op cards will be kinda cheap
+    gated by low card draw and low scaling, but can pull off huge tempo plays
+    pay 2 to deal max speed damage, pay 2 to look at top max speed cards and add one to hand, pay 3 to steal an equip
+    special effects:
+    attacks deal opponent's max power damage instead of your own and can't be avoided
+    use speed to pay any costs
+    look at top 2 cards and put one on bottom before drawing
+
+equips return to hand when creature dies, but have costs to play (with exceptions)
+low cost cards are most essential
+start game with 7 cards in hand, first player doesn't draw and "second" player plays a creature from hand before game starts
+then first player gets to play cards first, and second play gets 0.5 more cards and 0.5 more creatures on-board (also prevents direct attacks)
+
+coins are win condition, 20 to win, can also be used as costs (for example use coins instead of cost)
+each creature gives coins to opponent (the stronger the more coins it gives)
+direct attacks give coins equal to damage
