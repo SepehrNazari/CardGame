@@ -1,5 +1,5 @@
 import random
-from src.Card import Creature, Spell, Item, Counter
+from src.card import Creature, Spell, Item, Counter
 
 
 class Player:

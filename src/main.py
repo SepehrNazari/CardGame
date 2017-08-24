@@ -1,4 +1,4 @@
-from src.Player import Player
+from src.player import Player
 from src.account import Account
 from src.cards import cards
 from src.event import *
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     accounts[1].add_to_odeck([0, 1, 2, 3, 4, 5])
     accounts[0].add_to_mdeck([6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
     accounts[1].add_to_mdeck([6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
-    players = [Player(accounts[0]), accounts[1]]
+    players = [player(accounts[0]), accounts[1]]
     game = Game(players)
     game.start()
     game.game()

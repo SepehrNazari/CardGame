@@ -1,7 +1,7 @@
 from src.game import Winner
-from src import Card
-from src.Player import Player
-from src import Player
+from src import card
+from src.player import Player
+from src import player
 import random
 
 combat = 'combat'
@@ -24,13 +24,13 @@ def attack(attacker, target):
 
 
 def deal_damage(source, target, damage):
-    if isinstance(target, Card.Creature):
+    if isinstance(target, card.Creature):
         # triggers for before damage
         target.health -= damage
         # triggers for after damage
         if target.health <= 0:
             destroy(target, source)
-    elif isinstance(target, Player):
+    elif isinstance(target, player):
         gain_coins(source.player, damage)
 
 
