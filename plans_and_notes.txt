@@ -62,10 +62,20 @@ draw whenever a creature dies based on its intelligence (0 to 3 generally, highe
 creature types (first expansion, average stat distribution (adds up to 24))
 actual numbers will be much lower (generally 1-4 for each stat) for starting creatures
 these numbers are going to be around what maxed evolutions will have
-orcs (2 int, 4 speed, 10 hp, 8 power)
-fairies (12 int, 6 speed, 4 hp, 2 power)
-elves (6 int, 10 speed, 5 hp, 3 power)
-humans (6 int, 6 speed, 7 hp, 5 power)
+orcs (11 hp, 9 power, 1 magic, 3 speed) defense tools, lots of equips that gives damage/defense
+sidhe (4 hp, 1 power, 12 magic, 7 speed) barriers, fireballs, instant magic, destroy
+fey (6 hp, 2 power, 7 magic, 9 speed) traps, utility, stealing, information, discarding
+humans (9 hp, 7 power, 2 magic, 5 speed) technology, equips can give effects, still brute force
+expansion
+penguins? or other swarm (6, 4, 6, 2) stronger abilities, high synergy (plenty of them number-wise), debuffs (icy cold), play extra creatures
+elves or other archers/fast warriors (5, 5, 4, 10) cards like 2 might 3 speed, deal your might twice, hybrid cards, shit at start, insane scaling (draw a card every turn)
+
+since faeries will have low health, they need to be able to tank at least a hit or two from orcs to be viable
+so magic cards will have to have a good amount of defensive cards, which shows that faeries were the peaceful race that lived amongside orcs who couldn't enter their cities cuz of barriers, but then humans improved their tech and have now destroyed the city barriers and are attacking the faeries
+so humans use a mix of all their tools, they're crafty and have good technology and will do anything to win
+faeries want to play defensively and win with as little combat as possible, but will attack with spells if they have to
+and the two different types of faeries are the spellcasters who will go a bit more offensive
+and the tricksters who will use more tricks and cheat
 
 possible effects: attack with int instead of power, return damage whenever opponent attacks you
 cards have stat costs and max stat conditions (stats are like mana, refresh to max every turn)
@@ -104,11 +114,16 @@ speed
     attacks deal opponent's max power damage instead of your own and can't be avoided
     use speed to pay any costs
     look at top 2 cards and put one on bottom before drawing
+mixed
+    mixed cards allow for TONS of possibilities, but for simplicity's sake, will be very limited in the original set
 
 equips return to hand when creature dies, but have costs to play (with exceptions)
 low cost cards are most essential
-start game with 7 cards in hand, first player doesn't draw and "second" player plays a creature from hand before game starts
-then first player gets to play cards first, and second play gets 0.5 more cards and 0.5 more creatures on-board (also prevents direct attacks)
+creature deck separate from main deck, 3 creatures 3 main deck cards, first player plays a creature from hand and has to end turn
+each creature draws you a couple (1-3 for rank 1) cards from main deck, but you can only play 1 creature per turn
+first player gets 0.5 card advantage and 0.5 creatures on board (plus some main deck cards), and second player plays first
+this also prevents direct attacks
+optionally remove main deck draw for first creature if first player is winning too much
 
 coins are win condition, 20 to win, can also be used as costs (for example use coins instead of cost)
 each creature gives coins to opponent (the stronger the more coins it gives)

@@ -1,16 +1,17 @@
-from Game import Winner
-import Card
-import Player
+from src.game import Winner
+from src import card
+from src.player import Player
+from src import player
 import random
 
 combat = 'combat'
 
 
-def draw(player, num, cause=None):
+def draw(player, deck, num, cause=None):
     # triggers for before draw
     for x in range(num):
         if not len(player.deck):
-            raise Winner(player)
+            raise Winner(player)  # perhaps give enemy coins instead
         else:
             player.draw()
     # triggers for after draw
@@ -18,19 +19,25 @@ def draw(player, num, cause=None):
 
 def attack(attacker, target):
     # triggers for on attack declaration
-    deal_damage(target, attacker.strength, combat, attacker)
-    deal_damage(attacker, target.strength, combat, target)
+    deal_damage(target, attacker.strength, combat)
+    # triggers for after attack
 
 
-def deal_damage(target, damage, cause=None, cause_card=None):
-    if isinstance(target, Card.Creature):
+def deal_damage(source, target, damage):
+    if isinstance(target, card.Creature):
         # triggers for before damage
-        target.strength -= damage
+        target.health -= damage
         # triggers for after damage
-        if target.strength <= 0:
-            destroy(target, cause, cause_card)
-    elif isinstance(target, Player.Player):
-        mill(1, target)
+        if target.health <= 0:
+            destroy(target, source)
+    elif isinstance(target, player):
+        gain_coins(source.player, damage)
+
+
+def gain_coins(Player, coins):
+    # triggers before gain coins
+        Player.gain_coins(coins)
+    # triggers after gain coins
 
 
 def destroy(players, cards, cause=None, cause_card=None):
@@ -43,9 +50,9 @@ def destroy(players, cards, cause=None, cause_card=None):
     # triggers for after destruction
 
 
-def mill(num, player):
+def mill(player, deck, num):
     # triggers for before mill
-    player.graveyard_add(player.deck_get_top(num))
+    player.graveyard_add(player.deck_get_top(deck, num))
     # triggers for after mill
 
 
@@ -56,7 +63,7 @@ def play_card(player, card, position):
         # triggers for before trigger effects
         player.trigger(card.trigger)
         # triggers for after trigger effects
-    if isinstance(card, Card.Creature):
+    if isinstance(card, card.Creature):
         player.board_add(card, position)
     # add continuous and trigger effects to continuous and trigger lists
     # triggers for after playing card
