@@ -1,0 +1,26 @@
+id,name,rarity,requirement,activation
+0,,c,,Target a creature: destroy it.
+1,,c,,Your opponent mills 2 cards.
+2,,c,,
+3,,c,,
+4,,c,,
+5,,c,,
+6,,c,,
+7,,c,,
+8,,c,,
+9,,c,,
+10,,c,,
+11,,u,,Discard a card. Add a spell from your graveyard to your hand.
+12,,u,,
+13,,u,,
+14,,u,,
+15,,u,,
+16,,u,,
+17,,u,,
+18,,u,,
+19,,r,,Discard a card. Destroy all creatures.
+20,,r,,Discard your hand. Destroy all creatures. Shuffle 10 random cards from your graveyard to your deck. Draw 2 cards
+21,,r,,
+22,,r,,
+23,,r,,
+24,,r,,
