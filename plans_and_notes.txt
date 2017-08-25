@@ -52,30 +52,25 @@ times 2 for spell, times 6 for counter
 NEW STUFF:
 
 add "ATTACK" cards that allow you to attack, make the game mostly spell oriented.
-creatures have 4 stats, health/defense, power, intelligence, speed/cunning (utility stat)
+creatures have 4 stats, health/defense, strength/power (red), intelligence/magic (blue), speed/cunning (green) (utility stat)
 creatures can evolve into upgrades of themselves through some in-game mechanic (maybe getting enough stats, maybe an evolve card, not sure)
 cards can evolve into different versions (generic evolve, specific evolve that can only be gotten through a specific card, stat based evolve, etc)
 don't have to draw the actual evolved versions (more consistency)
 evolves shouldn't be mandatory, and should have real cost (for example play a creature or evolve a creature once a turn)
-draw whenever a creature dies based on its intelligence (0 to 3 generally, higher for evolved creatures)
+draw whenever a creature is played (1 to 3 generally, higher for evolved creatures, 0 for some op creatures)
+
 
 creature types (first expansion, average stat distribution (adds up to 24))
 actual numbers will be much lower (generally 1-4 for each stat) for starting creatures
 these numbers are going to be around what maxed evolutions will have
-orcs (11 hp, 9 power, 1 magic, 3 speed) defense tools, lots of equips that gives damage/defense
-sidhe (4 hp, 1 power, 12 magic, 7 speed) barriers, fireballs, instant magic, destroy
-fey (6 hp, 2 power, 7 magic, 9 speed) traps, utility, stealing, information, discarding
-humans (9 hp, 7 power, 2 magic, 5 speed) technology, equips can give effects, still brute force
+orcs (30 hp, 9 power, 1 magic, 3 speed, 1 card) defense tools, lots of equips that gives damage/defense
+sidhe (18 hp, 1 power, 12 magic, 7 speed, 3 card) barriers, fireballs, instant magic, destroy
+fey (22 hp, 3 power, 7 magic, 9 speed, 3 card) traps, utility, stealing, information, discarding
+humans (26 hp, 7 power, 3 magic, 5 speed, 2 card) technology, equips can give effects, still brute force
 expansion
-penguins? or other swarm (6, 4, 6, 2) stronger abilities, high synergy (plenty of them number-wise), debuffs (icy cold), play extra creatures
-elves or other archers/fast warriors (5, 5, 4, 10) cards like 2 might 3 speed, deal your might twice, hybrid cards, shit at start, insane scaling (draw a card every turn)
+penguins? or other swarm (14, 4, 6, 2, 1) stronger abilities, high synergy (plenty of them number-wise), debuffs (icy cold), play extra creatures
+elves or other archers/fast warriors (20, 5, 4, 10, 2) cards like 2 might 3 speed, deal your might twice, hybrid cards, shit at start, insane scaling on evolves (draw a card every turn passive)
 
-since faeries will have low health, they need to be able to tank at least a hit or two from orcs to be viable
-so magic cards will have to have a good amount of defensive cards, which shows that faeries were the peaceful race that lived amongside orcs who couldn't enter their cities cuz of barriers, but then humans improved their tech and have now destroyed the city barriers and are attacking the faeries
-so humans use a mix of all their tools, they're crafty and have good technology and will do anything to win
-faeries want to play defensively and win with as little combat as possible, but will attack with spells if they have to
-and the two different types of faeries are the spellcasters who will go a bit more offensive
-and the tricksters who will use more tricks and cheat
 
 possible effects: attack with int instead of power, return damage whenever opponent attacks you
 cards have stat costs and max stat conditions (stats are like mana, refresh to max every turn)
@@ -117,7 +112,10 @@ speed
 mixed
     mixed cards allow for TONS of possibilities, but for simplicity's sake, will be very limited in the original set
 
-equips return to hand when creature dies, but have costs to play (with exceptions)
+possible option for expansion, cast cards with multiple creatures, op mage spells cost 6+6, strength aoe's could cost 4+4+4, destroy all equips/items (raid) 3+3+3
+
+equips return to hand when creature dies, but have large costs to play (with exceptions)
+equips will be big part of the game to make speed's equip-destruction relevant
 low cost cards are most essential
 creature deck separate from main deck, 3 creatures 3 main deck cards, first player plays a creature from hand and has to end turn
 each creature draws you a couple (1-3 for rank 1) cards from main deck, but you can only play 1 creature per turn
@@ -133,8 +131,13 @@ BASIC CARDS HAVE NO LIMIT RESTRICTIONS, YOU CAN HAVE 30 ATTACK CARDS OR BASIC CR
 
 
 LORE:
-elves and fairies were peaceful, protected their cities from orcs which were big brutes using magic shields (magic will need shielding effects to be relevant in-game)
+fairies were peaceful, protected their cities from orcs which were big brutes using magic shields (magic will need shielding effects to be relevant in-game)
 humans were a non-factor, but eventually started creating technology and since humans are viscious, they attacked elf/fairy cities
+so humans use a mix of all their tools, they're crafty and have good technology and will do anything to win
 broke their city barriers, so now it's an all out war between elves/fairies and humans, with orcs as side creatures attacking them both
+elves avoided all others with speed and stealth in forest, but joined the war when they realized how big of an impact it would have (winner would be able to wipe them out)
+faeries want to play defensively and win with as little combat as possible, but will attack with spells if they have to
+and the two different types of faeries are the spellcasters who will go a bit more offensive
+and the tricksters who will use more tricks and cheat
 game is like a game between two bases, you destroy their creatures until you get enough "coins", and attacking their base gives coins when they have no creatures left
 you can have as many of basic creatures as you want (they're like militia), but only a few named ones and 1 of each legendary
