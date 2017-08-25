@@ -75,6 +75,7 @@ intelligence
     you can run out of current int quickly
     gated by current int, but draws a lot
     pay x to deal x rather than scaling, pay 2 to draw 2 (+1 card advantage), pay 5 to search for any spell, etc
+    incentivize winning with strategies and macro gameplay, saving cards, etc
     special effects:
     attacks deal max int damage instead of max power (still gated because low max power means can't play many)
     pay 2 draw 1 once a turn
@@ -83,16 +84,22 @@ power
     cards have low to no current power costs
     rarely run out, except when using high impact cards, can usually only use one of those per turn
     gated by low card draw and max stats
-    pay 1 to deal max power damage, pay 5 to destroy 2 random cards in opponent's hand, pay 3 hp to draw 2 (+1 card advantage)
+    pay 5 to destroy 2 random cards in opponent's hand, pay 3 hp to draw 2 (+1 card advantage)
+    PAY 1 STRENGTH TO DEAL DAMAGE EQUAL TO REMAINING STRENGTH
+    PAY 4 STRENGTH TO DEAL DAMAGE EQUAL TO REMAINING STRENGTH TO ALL ENEMIES
+    incentivize playing slowly and winning with stat efficiency and proper card ordering/micro
     special effects:
     deal power damage whenever attacked (for tanks with low power like barbed wire walls)
     pay 2 to attack once a turn
     regenerate 2 hp every turn
+
 speed
     cards have low to medium current speed costs
     may run out when doing a power turn, but not many huge cost cards. even op cards will be kinda cheap
     gated by low card draw and low scaling, but can pull off huge tempo plays
-    pay 2 to deal max speed damage, pay 2 to look at top max speed cards and add one to hand, pay 3 to steal an equip
+    pay 5 to deal max speed damage, pay 2 to look at top max speed cards and add one to hand, pay 3 to steal an equip
+    pay 2 to double all damage dealt by this creature this turn
+    incentivize big tempo turns and winning by waiting for the right time to strike
     special effects:
     attacks deal opponent's max power damage instead of your own and can't be avoided
     use speed to pay any costs
@@ -106,3 +113,13 @@ then first player gets to play cards first, and second play gets 0.5 more cards 
 coins are win condition, 20 to win, can also be used as costs (for example use coins instead of cost)
 each creature gives coins to opponent (the stronger the more coins it gives)
 direct attacks give coins equal to damage
+
+BASIC CARDS HAVE NO LIMIT RESTRICTIONS, YOU CAN HAVE 30 ATTACK CARDS OR BASIC CREATURES, RARITIES ABOVE THAT HAVE RESTRICTIONS
+
+
+LORE:
+elves and fairies were peaceful, protected their cities from orcs which were big brutes using magic shields (magic will need shielding effects to be relevant in-game)
+humans were a non-factor, but eventually started creating technology and since humans are viscious, they attacked elf/fairy cities
+broke their city barriers, so now it's an all out war between elves/fairies and humans, with orcs as side creatures attacking them both
+game is like a game between two bases, you destroy their creatures until you get enough "coins", and attacking their base gives coins when they have no creatures left
+you can have as many of basic creatures as you want (they're like militia), but only a few named ones and 1 of each legendary
