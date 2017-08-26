@@ -1,0 +1,34 @@
+Name,Rarity,Strength,Intelligence,Speed,Effect
+Magic Missile,0,0,1,0,Target 1 creature: Deal 3 damage to target.
+Fire Blast,0,0,3,0,Target 1 creature: Deal 5 damage to target. Target loses 2 STR next turn.
+Lightning Strike,0,0,4,1,Target 1 creature: Deal 10 damage to target.
+Life Drain,1,2,4,0,Target 1 creature: Steal 8 HP from target.
+Death Blast,1,2,8,4,Target 1 creature: Destroy target.
+Heal Ray,0,0,3,0,Target 1 creature: Restore 7 HP to target.
+Barrier,0,0,2,0,Target 1 creature: Add 3 max HP to target.
+Sap Magic,0,0,2,2,Target 1 creature: Gain 3 INT. Target loses 3 INT next turn.
+Higher Wisdom,0,0,2,1,Draw 2 cards.
+Assault,0,1,0,0,Target 1 creature: Deal damage equal to your remaining STR to target.
+Cleave,0,4,0,0,Deal damage equal to your remaining STR to all enemy creatures.
+Grow,0,2,1,0,Gain 2 max STR. Lose 1 max SPD.
+Sacrifice,1,4,1,0,Take 4 damage. Draw 3 cards.
+Bite,0,2,0,1,Target 1 creature: Steal HP equal to your remaining STR from target.
+Charge,0,3,0,2,Target 1 creature: Deal damage equal to your remaining STR plus your max SPD to target.
+Break,0,4,0,1,Target 1 equipment: Destroy the target.
+Shatter,1,9,1,3,Destroy all enemy equipments.
+Crush,0,2,0,0,Target 1 creature: Deal damage equal to half your HP (rounded up) to yourself and target.
+Momentum,0,0,0,2,All damage you deal this turn is doubled.
+Plan Ahead,0,0,0,1,Look at the top 2 cards of your deck. Add one to your hand and the other to the bottom of your deck.
+Strategize,0,0,1,3,Look at the top max SPD cards of your deck. Add 2 of them to your hand and the rest to the bottom of your deck
+Steal,0,2,0,5,Target 1 enemy equipment: Equip it to yourself.
+Sabotage,1,0,1,3,Look at your opponents hand. Target 1 card in their hand: they discard the target.
+Lightning Rush,0,1,1,3,Target 1 creature: Deal max SPD damage to target.
+Flash Cast,0,0,0,2,Choose an extra target for the next targeted spell you play this turn.
+Shadow Form,0,0,0,2,"Add your remaining STR and INT to SPD. For the rest of this turn, all costs are converted to SPD."
+Redirect Attack,0,1,0,4,"Target 1 creature: Deal damage to target equal to its max STR, INT, and SPD"
+Clone,1,0,4,10,Create a copy of yourself with all equipments equipped to you.
+Quick Shot,0,1,1,1,Target 1 creature: Deal 3 damage to target. Draw 1 card.
+Explosive Shot,0,3,2,0,Target 1 creature: Deal max STR + max INT damage to target.
+Duplicate,0,2,2,1,Target 1 friendly equipment: Create a copy of target and equip it to yourself.
+Launch Missile,1,5,5,0,Deal 8 damage to all enemy creatures.
+Invention,0,0,3,3,"Look at the top max SPD cards of your deck. Equip an equipment from them to a creature, then add the rest to the bottom of your deck. "

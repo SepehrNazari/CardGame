@@ -3,6 +3,10 @@ class Card:
     trigger = None
     continuous = None
     destruction = None
+    HP = 0
+    STR = 1
+    INT = 2
+    SPD = 3
 
     def __init__(self, card, player):
         self.id = card['id']
@@ -15,47 +19,40 @@ class Creature(Card):
         super().__init__(card, player)
         self.rank = card['rank']
         self.race = card['race']
-        self.max_health = card['health']
-        self.health = self.max_health
-        self.max_power = card['power']
-        self.power = self.max_power
-        self.max_magic = card['magic']
-        self.magic = self.max_magic
-        self.max_cunning = card['cunning']
-        self.cunning = self.max_cunning
+        self.max_stats = card['stats']
+        self.stats = self.max_stats
         self.activation = card['activation']
         self.trigger = card['trigger']
         self.continuous = card['continuous']
         self.destruction = card['destruction']
 
     def reset_stats(self):
-        self.reset_stat('power')
-        self.reset_stat('magic')
-        self.reset_stat('cunning')
+        self.reset_stat(self.STR)
+        self.reset_stat(self.INT)
+        self.reset_stat(self.SPD)
 
     def reset_stat(self, stat):
-        self.__dict__[stat] = self.__dict__['max_{}'.format(stat)]
+        self.stats[stat] = self.max_stats[stat]
 
     def lose_stat(self, stat, loss):
-        self.__dict__[stat] -= loss
+        self.stats[stat] -= loss
 
     def gain_stat(self, stat, gain):
-        self.__dict__[stat] -= gain
+        self.stats[stat] -= gain
 
 
 class Spell(Card):
     def __init__(self, card, player):
         super().__init__(card, player)
         self.activation = card['activation']
+        self.costs = card['costs']
 
 
 class Item(Card):
     def __init__(self, card, player=None):
         super().__init__(card, player)
-        self.health = card['health']
-        self.power = card['power']
-        self.magic = card['magic']
-        self.cunning = card['cunning']
+        self.costs = card['costs']
+        self.stats = card['stats']
         self.activation = card['activation']
         self.continuous = card['continuous']
         self.destruction = card['destruction']

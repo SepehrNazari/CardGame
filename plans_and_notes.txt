@@ -97,7 +97,6 @@ power
     deal power damage whenever attacked (for tanks with low power like barbed wire walls)
     pay 2 to attack once a turn
     regenerate 2 hp every turn
-
 speed
     cards have low to medium current speed costs
     may run out when doing a power turn, but not many huge cost cards. even op cards will be kinda cheap
